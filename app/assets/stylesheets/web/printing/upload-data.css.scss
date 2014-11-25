@@ -1,0 +1,197 @@
+.web {
+    .upload-data-page {
+       
+        h1 {
+            color: #e5d9ca;
+            font-size: 53px;
+            line-height: 48px;
+            font-family: 'Helvetica';
+            margin: 0;
+        }
+        
+         .data-uploader {
+             #file-upload-progressbar {
+                .modal-dialog {
+                    margin-top: 10%;
+
+                    .modal-header {
+                        height: 50px;
+                    }
+
+                    .progress-holder {
+                        width: 500px;
+                        margin: 50px auto 0;
+                    }
+                }
+            }
+
+            .panel-box {
+                float: left;
+                margin: 10px 0 0 0;
+                position: relative;
+                width: 315px;
+                min-height: 500px;
+               
+                .box-upload {
+                    border-radius: 8px;
+                    height: 47px;
+                    width: 230px;
+                    margin: 50px auto 0;
+                    display: block;
+                    opacity: 0.5;
+
+                    .box-image {
+                        img {
+                            margin-top: -40px;
+                        }
+                    }
+
+                    .box-title {
+                        margin-top: 3px;
+                    }
+                }
+
+                .box-upload-show {
+                    opacity: 1;
+
+                    .box-content {
+                        display: block !important;
+                    }
+                }
+
+                /**
+                * FROM-PC AND ASK US TO DESIGN
+                */
+                #from-pc, #ask-us-to-design {
+
+                    .box-content {
+                        border: 1px solid #aa9473;
+                        border-radius: 0 0 10px 10px;
+                        margin-top: -15px;
+                        padding-top: 5px;
+                        display: none;
+
+                        .dropzone-holder {
+                            margin-top: 20px;
+
+                            h4 {
+                                color: #d60606;
+                                font-size: 14px;
+                                font-weight: bold;
+                            }
+
+                            .upload-target {
+                                border: 2px dotted #908f8f;
+                                border-radius: 8px;
+                                margin: 0 15px 10px;
+                                padding: 5px 0;
+
+                                a {
+                                    color: #908f8f;
+                                    p {
+                                        font-size: 12px;
+                                        margin: 0 !important;
+                                    }
+                                    small {
+
+                                    }
+                                }
+                            }
+                        }
+
+                        .data-note {
+                            color: #908f8f;
+                            font-size: 10px;
+
+                            .plus-icon {
+                                color: #3c763d;
+                            }
+                        }
+                    }
+                }
+
+                #from-cloud {
+                    position: absolute;
+                    z-index: 3;
+                    left: 30px;
+
+                    .clickable {
+                        border-radius: 8px;
+                        height: 47px;
+                        position: absolute;
+                        z-index: 5;
+                        left: 0;
+                        right: 0;
+                    }
+
+                    .box-content {
+                        background: #fff;
+                        border: 1px solid #aa9473;
+                        border-radius: 10px;
+                        display: none;
+                        position: absolute;
+                        left: -135px;
+                        right: 0;
+                        width: 500px;
+                        top: 0px;
+                        padding: 65px 10px 10px;
+
+                        table {
+                            width: 100%;
+                            color: #333;
+                            th, td {
+                                border: 1px solid #ddd;
+                                font-weight: normal;
+                                font-size: 12px;
+                                padding: 8px 5px;
+                            }
+                        }
+                    }
+                }
+
+                #ask-us-to-design {
+                    .box-content {
+                        .or small {
+                            font-size: 10px;
+                            color: #908f8f;
+                        }
+
+                        .dropzone-holder {
+                            .upload-target {
+                                border-style: solid;
+                                padding: 15px 0;
+                                border-width: 1px;
+
+                                .p {
+
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+         }
+        
+        .text-left {
+            text-align: left;
+        }
+
+        .text-right {
+            text-align: right;
+        }
+
+        .a-link {
+            padding: 30px;
+
+            small {
+                font-size: 9px;
+                font-family: 'Helvetica';
+                color: #a9a9aa;
+                display: block;
+                text-transform: uppercase;
+                margin: 4px 0 0 0;
+                letter-spacing: 0.7px;
+            }
+        }
+    }
+}

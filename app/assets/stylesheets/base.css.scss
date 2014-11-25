@@ -1,0 +1,27 @@
+.center {
+    text-align: center;
+}
+
+.notification-message {
+    background: #333;
+    border-radius: 8px;
+    color: #fff;
+    display: none;
+    min-width: 300px;
+    max-width: 400px;
+    padding: 6px 14px;
+    position: fixed;
+    z-index: 9999;
+    right: 2%;
+    top: 15%;
+    p {
+        margin: 0px;
+    }
+}
+
+.notification-error {
+    background: #d9534f;
+}
+a:hover{
+    text-decoration: none !important;
+}

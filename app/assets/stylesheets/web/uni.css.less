@@ -1,0 +1,199 @@
+.web{    
+    .test {
+      border: 1px solid red;
+    }
+    
+    
+    .container {
+      max-width: 980px;
+      width: 980px;
+    }
+    
+    // Page Global 
+    #main-wrapper {
+      position: relative;
+    }
+    
+    .page-top-bor {
+      margin: 5px 0 5px;
+      height: 10px;
+      float: right;
+      width: 900px;
+      position: relative;
+      z-index: 2;
+      opacity: .9;
+      background: url('/assets/web/carousel-line.png') no-repeat;
+      background-position: 10px 0;
+    }
+    
+    
+    
+    
+    
+    
+    /* ==============================================================
+       FONTS
+    ============================================================== */
+    
+    @font-face {
+      font-family:'GothamBook';
+      src:url('/assets/fonts/GothamBook.otf');
+      font-weight:normal;font-style:normal;
+    }
+    
+    @font-face {
+      font-family:'GothamBold';
+      src:url('/assets/fonts/GothamBold.ttf');
+      font-weight:normal;font-style:normal;
+    }
+    
+    @font-face {
+      font-family:'GothamLight';
+      src:url('/assets/fonts/GothamLight.ttf');
+      font-weight:normal;font-style:normal;
+    }
+    
+    @font-face {
+      font-family:'GothamMedium';
+      src:url('/assets/fonts/GothamMedium.ttf');
+      font-weight:normal;font-style:normal;
+    }
+    
+    
+    @font-face {
+      font-family:'NexaLight';
+      src:url('/assets/fonts/Nexa%20Light.otf');
+      font-weight:normal;font-style:normal;
+    }
+    
+    @font-face {
+      font-family:'NexaBold';
+      src:url('/assets/fonts/Nexa%20Bold.otf');
+      font-weight:normal;font-style:normal;
+    }
+    
+    
+    @font-face {
+      font-family:'YanoneKaffeesatz';
+      src:url('/assets/fonts/Yanone%20Kaffeesatz%20Regular.ttf');
+      font-weight:normal;font-style:normal;
+    }
+    
+    
+    
+    /* ==============================================================
+       COMMON CONTENTS
+    ============================================================== */
+    
+    
+    
+    
+    #step-description {
+      height: 450px;
+      width: 100%;
+      
+      #cont-a {
+          bottom: 0;
+          display: block;
+          height: 150px;
+          left: 20px;
+          margin: auto 0;
+          position: absolute;
+          right: 0;
+          top: 0;
+          width: 100%;
+      }
+      
+      h1 {
+        // margin-top: 160px;
+        color: #e5d9ca;
+        font-size: 53px;
+        line-height: 48px;
+        font-family: @gb;
+        margin: 0;
+        
+        strong {
+          font-family: @gb-M;
+        }
+      }
+    
+      h5 {
+        font-family: @gb;
+        font-size: 18px;
+        color: #704a1e;
+        font-weight: normal;
+        margin: 0;
+      } 
+      
+    }
+    
+    #step-content {
+      position: relative;
+      margin: 10px;
+    }
+    
+    
+    #step-control {
+      position: relative;
+      bottom: 60px;
+      display: block;
+      width: 100%;
+    
+      a {
+        color: #000;
+        font-size: 22px;
+        text-decoration: none;
+        opacity: 0.7;
+        &:hover {
+          opacity: 1;
+        }
+      }
+    
+      #prev-step {
+        position: relative;
+        float: left;
+        margin-left: -30px;
+      }
+    
+      #next-step {
+        margin-right: -30px;
+        position: relative;
+        float: right;
+      }
+    }
+    
+    // Border with Arrow Right
+    .arr {
+      .sprite;
+      position: absolute;top: 0;height: 9px;bottom: 0;margin: auto 0;
+      background-position: -203px -387px; width: 8px; height: 9px;
+    }
+    
+    .arr-L { left: -1px; }
+    .arr-R { right: -8px; }
+    
+    
+    // BULLET
+    .bullet-grey {
+      width: 15px;
+      height: 15px;
+      position: relative;
+      margin-right: 7px;
+      top: 2px;
+      .rounded-corners(20px);
+      display: inline-block;
+      background-color: #a0a2a4;
+    }
+    
+    
+    #back-bgcolor {
+      width: 100%;
+      min-height: 445px;
+      background: #f5ede0;
+      position: relative;
+      display: block;
+      bottom: 0;
+      z-index: -1;
+      top: 190px;
+    }
+}
